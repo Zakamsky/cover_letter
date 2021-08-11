@@ -1,8 +1,8 @@
 {
-  "name": "foundation-emails-template",
+  "name": "cover-letter-emails-template",
   "version": "1.0.0",
-  "description": "Basic template for a Foundation for Emails project.",
-  "repository": "zurb/foundation-emails-template",
+  "description": "Basic template for a cover-letter with Foundation for Emails.",
+  "repository": "https://github.com/Zakamsky/cover_letter",
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp",
@@ -11,7 +11,7 @@
     "litmus": "gulp litmus --production",
     "mail": "gulp mail --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "Alex Elkin <alex.zakamsky@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "foundation-emails": "^2.2.1"

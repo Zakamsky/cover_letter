@@ -12,15 +12,35 @@
   <!-- <style> -->
 </head>
 <body>
-  <span class="preheader">{{description}}</span>
+  <span class="preheader">{{preheader}}</span>
   <table class="body">
     <tr>
       <td class="center" align="center" valign="top">
+
         <center>
 
-            {{> body}}
+          <container class="main">
+
+            {{> header}}
+
+              <row>
+                <columns>
+                  <spacer size="40"></spacer>
+                  {{> body}}
+                  <spacer size="40"></spacer>
+
+                  <p>Благодарю за ваше внимание к моей кандидатуре.</p>
+                  <p>С уважением, Алексей Елькин.</p>
+
+                </columns>
+              </row>
+
+            {{> footer}}
+
+          </container>
 
         </center>
+
       </td>
     </tr>
   </table>

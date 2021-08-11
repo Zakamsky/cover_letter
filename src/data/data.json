@@ -1,6 +1,12 @@
 {
-  "path": "assets/img/",
-  "resume_onl": "https://www.elkin.dev/",
+  "path": "https://raw.githubusercontent.com/Zakamsky/Zakamsky.github.io/master/img/",
+  "resume_onl": "https://resume.elkin.dev/",
   "resume_pdf": "https://github.com/Zakamsky/Zakamsky.github.io/raw/master/Elkin%20Aleksei.pdf",
-  "resume_doc": "https://www.elkin.dev/"
+  "website": "https://www.elkin.dev/",
+  "linkedin": "alexelkin",
+  "github": "Zakamsky",
+  "telegram": "alex@elkin.dev",
+  "email": "alexei.v.elkin@gmail.com",
+  "phone": "34698999059",
+  "beautyphone": "+34 (698) 999 059"
 }
