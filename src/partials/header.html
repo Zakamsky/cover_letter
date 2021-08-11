@@ -1,0 +1,35 @@
+<wrapper class="header">
+    <row>
+        <columns>
+            <spacer size="20"></spacer>
+            <h6>
+                <small class="secondary-text">
+                    /* {{subject}} */
+                </small>
+            </h6>
+            <spacer size="10"></spacer>
+        </columns>
+
+    </row>
+    <row>
+        <!--<columns large="6" class="avatara">-->
+        <columns large="4" >
+            <!--<spacer size="20"></spacer>-->
+            <center >
+                <img  src="{{path}}hero.png">
+            </center>
+        </columns>
+        <columns large="8" class="pl-1">
+            <h1>Алексей Елькин</h1>
+            <p>{{employment}}</p>
+            <p>{{seniority}}</p>
+            <spacer size="10"></spacer>
+            <button href="{{data.resume_onl}}" class="rounded primary">резюме онлайн</button>
+            <spacer size="10"></spacer>
+            <a href="{{data.resume_doc}}" class=""><small class="">резюме в word</small></a>
+
+            <a href="{{data.resume_pdf}}" class="ml-1"><small class="">резюме в pdf</small></a>
+
+        </columns>
+    </row>
+</wrapper>
