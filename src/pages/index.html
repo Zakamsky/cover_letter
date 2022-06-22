@@ -1,40 +1,26 @@
 ---
 subject: My letter base
 path: assets/img/
+
+pages:
+ - example
+ - agile
+ - bootcamp
+ - fik
 ---
 <container class="main">
     <row>
         <columns>
             <spacer size="20"></spacer>
-            <a href="/cover.html">Cover letter</a>
-            <spacer size="20"></spacer>
 
-            <spacer size="20"></spacer>
-            <a href="/template1.html">template1</a>
-            <spacer size="20"></spacer>
-            <a href="/template2.html">template2</a>
-            <spacer size="20"></spacer>
-            <a href="/template3.html">template3</a>
-            <spacer size="40"></spacer>
-
-            <a href="/basic.html">basic</a>
-            <spacer size="20"></spacer>
-            <a href="/drip.html">drip</a>
-            <spacer size="20"></spacer>
-            <a href="/marketing.html">marketing letter</a>
-            <spacer size="20"></spacer>
-            <a href="/newsletter.html">newsletter</a>
-            <spacer size="20"></spacer>
-            <a href="/newsletter-2.html">newsletter</a>
-            <spacer size="20"></spacer>
-            <a href="/order.html">order</a>
-            <spacer size="20"></spacer>
-            <a href="/password.html">password</a>
-            <spacer size="20"></spacer>
-            <a href="/sidebar.html">sidebar</a>
-            <spacer size="20"></spacer>
-            <a href="/sidebar-hero.html">sidebar-hero</a>
-            <spacer size="20"></spacer>
+            <ul>
+                {{#each pages}}
+                    <li>
+                        <a href="/{{ this }}.html">{{ this }} letter</a>
+                        <spacer size="20"></spacer>
+                    </li>
+                {{/each}}
+            </ul>
 
         </columns>
     </row>
